@@ -41,6 +41,10 @@ public class InteractableObject : MonoBehaviour
                 CloseLid();
             }
         }
+
+        if (gameObject.name == "BigShip"){
+            OpenLid();
+        }
     }
 
     void OpenLid(){
